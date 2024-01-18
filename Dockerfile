@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Informasikan Docker bahwa kontainer mendengarkan pada port yang ditentukan saat runtime.
-EXPOSE 8000
+EXPOSE 3000
 
 # Jalankan aplikasi saat kontainer dimulai
-CMD ["node", "app.js"]
+CMD ["node", "index.js"]
